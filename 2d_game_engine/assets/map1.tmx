@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="32" tileheight="32" nextobjectid="2">
+ <properties>
+  <property name="helicopter" value="helicopter.png"/>
+ </properties>
+ <tileset firstgid="1" name="Map" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="198" columns="18">
+  <image source="blocks1.png" width="614" height="376"/>
+ </tileset>
+ <tileset firstgid="199" name="Map2" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="198" columns="18">
+  <image source="blocks2.png" width="614" height="376"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlrsNwzAMBTV4ptAiTlbIZKkCqJAt8SeS4CsOSGHIgX1H82qtXYX4EPmC0nj7ij7m9AFvRyrj7Sv6uO9j7ER6VpbWegDQh24fT89X2xsN51Y+arktOcezT/TB72M1cyw70XL3qTlph9rnoI8cfVDf99313rvDzt7GdXvWn2cf1FnVJ/f39jVDH1JftOaq5L1T76mxv5/+hqxmwe5MGH9b+/gWEqUPLZ81d4fVeZa73snOKC1I/tPsmhN9UJ38E6WPyHD9AnvPFn3k7gPYIt1/dkAfICtcd09g0Srn+wfq4t1A9OZeoDTevqIPEBlvX9EHiMwPiPP5Kw==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="1" name="Helicopter1" type="Player" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" type="int" value="4"/>
+    <property name="textureHeight" type="int" value="55"/>
+    <property name="textureID" value="helicopter"/>
+    <property name="textureWidth" type="int" value="128"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
