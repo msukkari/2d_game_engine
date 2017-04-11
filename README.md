@@ -5,11 +5,11 @@ The purpose of this project was to learn more about software architecture, as we
 
 # Graphics
 
-For graphics, this engine is using SDL2 to render sprites onto the screen.
+This engine is using SDL2 to render sprites onto the screen.
 
 # Level Loading
 
-This engine adopts a data-driven design for game level's. Level's are created in a tile-based application, "Tiled" for example, and are exported as an XML file. The LevelParser class handles the parsing of these XML files, and creates a usable Level object with the parsed data. I used the tinyxml library to parse the XML files, as well as zlib to handle the compressed data in the XML files.
+This engine adopts a data-driven design for game levels. Levels are created in a tile-based application, "Tiled" for example, and are exported as an XML file. The LevelParser class handles the parsing of these XML files, and creates a usable Level object with the parsed data. I used the tinyxml library to parse the XML files, as well as zlib to handle the compressed data in the XML files.
 
 # Game States
 
